@@ -46,8 +46,9 @@ class Form{
         this.reset.mousePressed(() => {
            
               database.ref("/").set({
-                  //defina o valor inicial para playerCount,gameState,players
-                 
+              playerCount: 0,
+              gameState: 0,
+              Players {};
                 });
                 //reload() a janela
                 window.location.reload();
